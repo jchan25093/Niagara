@@ -1,0 +1,81 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background: #c8c8c8;
+    overflow: auto;
+    border-bottom: 3px black;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top: 0px;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+}
+/* Width relative */
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 0px;
+    transition: all .5s, border-radius 1s;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster Two', cursive;
+}
+
+/* Font added to css and html */
+
+.nav a:hover {
+    color: lightblue;
+    background: #333;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/* Styling and hover effects */
+
+.header {
+    background: url(/Images/Boat.jpg);
+    height: 200px;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    margin-top: 40px;
+}
+
+/* Maid of the mist boat */
+.header h1 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+}
+
+.fl-left {
+    float:left;
+    width: 33%;
+    margin: 10px;
+}
+
+
+/* float left to be consistent */
+p {
+    font-family: 'Lobster Two', cursive;
+}
+
+
+.footer{
+    clear:both;
+    background-color:rgb(66, 244, 119);
+    font-size:16px;
+    text-align: center;
